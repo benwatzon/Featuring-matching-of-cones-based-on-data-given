@@ -2,6 +2,12 @@ import numpy as np
 import cv2 
 from scipy.spatial import distance
 
+## detection values from different cones.
+## here l stands for "left" and r for "right"
+## "b" is blue cone and "y" is yellow cone.
+## detection map list includes x and y coordinate of the detected cone and height and width of the bounding box
+## see image for examples.
+
 detections_map = {'l_1': [1683, 1397, 19, 19, 'b'], 
 'l_2': [1216, 1197, 30, 44, 'b'], 
 'l_3': [1332, 1141, 21, 32, 'b'], 
